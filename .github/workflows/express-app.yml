@@ -6,9 +6,6 @@ on:
       - main
 
 jobs:
-  deploy:
-    name: Deploy to GitHub Pages
-
   publish-docker_hub:
     name: Puplish image to Docker Hub
     runs-on: ubuntu-latest
