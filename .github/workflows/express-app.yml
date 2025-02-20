@@ -29,4 +29,3 @@ jobs:
           file: ./express-app/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops-ecercise:latest
-
